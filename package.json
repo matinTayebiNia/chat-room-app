@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-chatroom",
+  "version": "1.0.0",
+  "description": "this is a test for creating nodejs chatroom ",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
